@@ -1,0 +1,56 @@
+.layout__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    padding: 20px;
+    &--logo{
+        font-weight: 700;
+        font-size: 30px;
+        color: #1161D1;
+    }
+
+    &--account{
+        display: flex;
+        &-button{
+            margin-right: 10px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.layout__content{
+    margin: 40px 30px;
+    .title{
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+.layout__footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--content{
+        margin: 10px 0;
+    }
+}
+
+.tag{
+    padding: 20px;
+}
+
+.hint__company{
+    display: flex;
+    &-item{
+        margin: 10px;
+        text-decoration: none;
+    }
+}
